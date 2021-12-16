@@ -1,6 +1,7 @@
 const UserSchema = require ('../models/userSchema');
 const mongoose = require('mongoose');
 
+//Todos os comentários:
 const getAll = async ( req, res) => {
     try {
         const users = await UserSchema.find()
@@ -13,6 +14,7 @@ const getAll = async ( req, res) => {
     }
 };
 
+//Procurar por id:
 const getById = async (req, res) => {
     try {
         const idComment= await UserSchema.findById(req.params.id);
@@ -26,6 +28,7 @@ const getById = async (req, res) => {
 
 };
 
+//Cadastrar comentário:
 const createComment = async(req, res) => {
     try {
         const newComment = await UserSchema.create(req.body)
@@ -39,6 +42,7 @@ const createComment = async(req, res) => {
     }
 };
 
+//Deletar comentário:
 const deleteComment = async (req, res) =>{
     try{ 
         const deleteComment = await UserSchema.findById(req.params.id)
@@ -52,6 +56,7 @@ const deleteComment = async (req, res) =>{
     }
 };
 
+//Atualizar/alterar comentário:
 const updateComment = async(req, res) => {
     console.log("Estou alterando comentario")
 try {

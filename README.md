@@ -9,7 +9,7 @@
 <h2>📚Justificativa</h2>
 <br>
 <p align="justify">Para quem não me conhece meu nome é Ravena e atuo como Intérprete de LIBRAS na rede estadual de ensino desde 2011. A autonomia de pessoas surdas, sempre foi para eu um tema de grande interesse e sensibilidade, pois as pessoas com deficiência são tema de discussões em diferentes níveis, sempre com o objetivo de que tenham equidade social, educacional e de saúde uma vez que são um número expressivo da população. Curitiba, tem aproximadamente 17 mil pessoas surdas segundo dados do IBGE, Censo de 2010 e no Brasil esses números chegam a 5,1% da população nacional. Por ser uma comunidade minoritária linguística e culturalmente, os surdos enfrentam inúmeras barreiras na acessibilidade a diversos serviços, em especial nos serviços de saúde. 
-<p align="justify">Diante deste contexto surge a necessidade de investigação  principais obstáculos
+<p align="justify">Diante deste contexto surge a necessidade de investigação dos principais obstáculos
 enfrentados pelos surdos referentes ao acesso à
 saúde.Diversos trabalho sitam que o maior  desafio de atender o sujeito surdo nas unidades
 de saúde se caracteriza, principalmente pela barreira
@@ -26,6 +26,10 @@ saúde, resultado da invisibilidade social. A pessoa surda se encontra nesta par
 igualitário nos sistemas de saúde, sendo marginalizada da sociedade e dos serviços.  A comunidade surda sente necessidade de maior
 inclusão, em especial na área  da saúde para que esses tenham  autonomia para cuidar de
 si próprios e até mesmo de outras pessoas. 
+
+<ul><p align="justify"><i>Ir ao médico, é sempre um desafio para mim, porque não sei o que vou esperar a reação do médico que vai atender um surdo. Se for o médico da família é outra coisa, já sabe como comunica e me conhece  Muitas vezes acontece os médicos não sabem como comunicar um surdo, sempre digo para escrever um papel. Infelizmente há um problema ,as letras dos médicos não são bonitas, escreveram rápidos, poucos perceberam. Sempre fico ansiosa de ir ao médico porque não sei como reage na presença do paciente surdo.  Ja levei um intérprete  uma consulta por próprio médico pediu para me explicar melhor. Como estamos na pandemia, é o mais complicado por ser obrigatório de usar a máscara, traz uma grande barreira de comunicação. Enquanto psicóloga, os médicos deviam ter a mente aberta pela forma como comunicar os surdos, precisam de procurar as alternativas para comunicar, pode ser escrever, ou desenhar ou mímica. 
+<p align="justify">Deise Bordignon, Psicóloga Surda/Professora de LIBRAS.
+</i></ul>
 
 Referências Bibliográfica:
 -[1](http://www.seer.unirio.br/index.php/cuidadofundamental/article/view/2989)
@@ -56,6 +60,7 @@ Referências Bibliográfica:
 - [MongoDBatlas](https://www.mongodb.com/cloud/atlas)
 - [Postman](https://www.postman.com/)
 - [Vscode](https://code.visualstudio.com/)
+- [Heroku](https://dashboard.heroku.com/apps)
 
 <br>
 <h2>💻Pacotes Utilizados</h2>
@@ -93,13 +98,12 @@ Referências Bibliográfica:
    |    |- 📑 app.js
    |
    |
-   |- 📑 .env//falat
+   |- 📑 .env
    |- 📑 .env.example
    |- 📑 .gitignore
-   |- 📑 LICENSE//falta
    |- 📑 package-lock.json
    |- 📑 package.json
-   |- 📑 Procfile//falta
+   |- 📑 Procfile
    |- 📑 README.md
    |- 📑 server.js
 ````
@@ -109,16 +113,20 @@ Referências Bibliográfica:
 
 <h2>🔃Rotas</h2>
 
--Local: http://localhost:8080
+-Local: http://localhost:8080 <br>
+-Heroku: https://projetofinal-reprograma-ravena.herokuapp.com <br>
+*Para acessar usuários:https://projetofinal-reprograma-ravena.herokuapp.com/user/<br>
 
-*Para acessar as rotas use o [Postman](https://www.postman.com/).
+*Para acessar profissionais:https://projetofinal-reprograma-ravena.herokuapp.com/professional/ <br>
+
+*Para acessar as rotas use o [Postman](https://www.postman.com/)
 
 <h3>🔃Demandas das Rotas de Profissionais</h3>
 
 | Método HTTP  | Endpoint              | Descrição                                  |
 | ------------ | --------------------- | ----------------------------------------- |
 | GET          | `/professional/all`         | Retorna todos os profissionais cadastrados               |
-| GET          | `/professional/name`      | Retorna um profissional  pelo nome    |
+| GET          | `/professional/professional`      | Retorna um profissional  pelo nome    |
 | GET         |`/professional/specialty`     | Retorna um profissional  pela especialidade                    |
 | GET       | `/professional/district`    | Retorna um profissional da saúde por bairro        |
 | GET        | `/professional/:id`     | Retorna um profissional da saúde por id  |                    |
@@ -146,10 +154,16 @@ Referências Bibliográfica:
 
 <br>
 
-*  Sistema de login
-*  Casatrar atendimentos especializados para outros grupos minoritários, como Cegos, Surdo-Cegueira, pessoas com Transtorno do Espectro Autista(TEA), entre outros grupos.
+*  Sistema de login.
+*  Disponibilizar a interface na versão em LIBRAS.
 *  Implementação de código HTML e CSS, construção da interface para possibilitar a interação do usuário com aplicação.
+<br>
 
+Autora: [Linkedln](https://www.linkedin.com/in/ravena-maia-367a45162/)
+
+<br>
+<h2>Obrigada pela atenção!</h2>
+<br>
 
 
 
